@@ -1,0 +1,156 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #d8e7f0;
+}
+
+body {
+  font-family: Roboto;
+	line-height: 1.6;
+	color: #3a3a3a;
+	margin: 0;
+  display: block;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 30px;
+  font-size: 40px;
+}
+h3 {
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+
+p {
+  padding: 0 30px;
+  font-size: 25px;
+}
+
+a {
+  color: yellow;
+}
+
+.header {
+  width: 100%;
+}
+
+.main-body {
+  width: 90%;
+  display: block;
+  min-height: calc(100vh - 600px);
+}
+
+.tall-container {
+  margin: 15em auto 0;
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  width: 90%;
+}
+
+.button {
+  border: none;
+  border-radius: 50%;
+  color: white;
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  box-shadow: 0 9px #999;
+  margin-top: 2em;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.main-body h3 {
+  border: 10px solid black;
+  border-width: thick;
+}
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.number {
+  font-size: 40px;
+}
+
+#russianButton {
+  background-color:rgb(6, 49, 75);
+  border: 4px solid darkblue;
+}
+
+#englishButton {
+  background-color: rgb(6, 49, 75);
+  border: 4px solid rgb(48, 85, 185);
+}
+
+.container {
+  font-size: 1.3em;
+  margin: 0;
+  text-align: center;
+  display: block;
+}
+.main-body {
+  align-items: center;
+  margin: 0 auto;
+}
+
+.tall-container {
+
+}
+
+.container-box-english,
+.container-box-russian {
+  padding: 10px 15px;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.main-footer {
+  background: #d9e4ea;
+	padding: 2em 0;
+  margin-top: 30px;
+  border-top: 5px solid black;
+  display: block;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+  /* body {
+   width: 100%;
+   margin: 0 auto;
+  }
+
+  .header, .main-body, .main-footer {
+    display: flex;
+  }
+
+  .main-body {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tall-container {
+    flex-direction: column;
+    justify-content: center;
+  } */
+}
+
+@media (min-width: 1025px) {
+
+}
